@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <title>Berries</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="hero" id="section-home">
+        <nav class="hero__nav">
+          <a href="#hero" class="hero__logo">
+            <img src="img/logo.svg" class="logo__svg" alt="logo" />
+            <span class="logo__text">Berries</span>
+          </a>
+          <ul class="hero__list">
+            <li class="hero__item">
+              <a href="#section-home" class="hero__link">Home</a>
+            </li>
+            <li class="hero__item">
+              <a href="#section-products" class="hero__link">Products</a>
+            </li>
+            <li class="hero__item">
+              <a href="#section-contact" class="hero__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="products" id="section-products">
+        <h1 class="section__title">Products</h1>
+        <div class="products-container">
+          <div class="products__showcase">
+            <div class="products__text">
+              <p>Danske</p>
+              <p><span class="products__text--alt">Produkter</span> af</p>
+              <p>danske</p>
+              <p class="products__text--alt">frugter</p>
+            </div>
+            <img
+              src="img/products.png"
+              alt="Product 1"
+              class="products__photo"
+            />
+          </div>
+          <div class="box"></div>
+          <div class="products__logo">
+            <img src="img/logo.svg" class="logo__svg" alt="logo" />
+            <span class="logo__text--alt">Berries</span>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="section-contact">
+        <h1 class="section__title">Contact</h1>
+        <div class="contact-container">
+          <form action="" class="contact__form">
+            <label class="contact__label" for="input--email">Your Email</label>
+            <input type="email" id="input--email" class="contact__input" />
+            <label class="contact__label" for="input--name">Your Name</label>
+            <input type="text" id="input--name" class="contact__input" />
+            <label class="contact__label" for="input--message"
+              >Your Message</label
+            >
+            <textarea
+              id="input--message"
+              rows="10"
+              class="contact__textarea"
+            ></textarea>
+            <input
+              type="submit"
+              value="Send Message"
+              class="contact__input--submit"
+            />
+          </form>
+          <iframe
+            class="contact__map"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=Fredericiagade%2017&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            frameborder="0"
+          ></iframe>
+          <div class="contact__text">
+            <p class="text--bold">BERRIES</p>
+            <p>info@berries.com</p>
+            <p>www.berries.com</p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__text">
+          <p class="text--bold">BERRIES</p>
+          <p>Fredericiagade 17</p>
+          <p>7100 Vejle</p>
+          <p>info@berries.com</p>
+          <p>www.berries.com</p>
+        </div>
+        <div class="footer__logo">
+          <img src="img/logo.svg" class="logo__svg" alt="logo" />
+          <span class="logo__text">Berries</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
